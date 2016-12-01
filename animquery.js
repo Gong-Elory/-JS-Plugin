@@ -7,11 +7,17 @@
  * QQ: 1010688273
  * email: elory0513@hotmail.com
  */
+
+
 /*
- *name: moveLinear
- *description: You can use this function to control  elements' linear motion.
- *params:
- *
+ *  name: moveLinear
+ *  description: You can use this function to control  elements' linear motion.
+ *  params:
+ *          targetElements： a DOM object which you will control.
+ *          obj: a json object which contains CSS key-value.
+ *          func: the function which will be executed later.
+ *  return:
+ *          no return
  */
 
 function moveLinear(targetElements,obj,func) {
@@ -53,6 +59,17 @@ function moveLinear(targetElements,obj,func) {
             }
         },30);
 }
+
+/*
+ *  name: getCssValue
+ *  description: You can use this function to get CSS value.
+ *  params:
+ *          element： a DOM object where you get the attribute value.
+ *          attr: attribute name.
+ *  return:
+ *          styleValue: attribute value.
+ *
+ */
 
 function getCssValue(element,attr) {
     var styleValue;
