@@ -8,7 +8,6 @@
  * email: elory0513@hotmail.com
  */
 
-
 /*
  *  name: moveLinear
  *  description: You can use this function to control  elements' linear motion.
@@ -95,7 +94,7 @@ function getCssValue(element,attr) {
 *                                               [r2l] means:right-to-left
 *                                               [l3r] means:left-to-right
 *       speed: scrolling speed. default: 30
-*       obj:   a json object which contains attrbutes about intermittent scrolling.
+*       obj:   a json object which contains attributes about intermittent scrolling.
 *               attributes:
 *                   [mode]: you can setting the  number of scrolling intervals. default: -1 :no intervals
 *                   [delay]: the time of scrolling intervals （The unit is milliseconds）
